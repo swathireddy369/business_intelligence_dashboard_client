@@ -1,0 +1,35 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 8rem;
+    border-radius: 1.5rem;
+}
+.divContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid gray; */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.divContainer input{
+    margin-top: 2rem;
+    width: 15rem;
+    height: 2rem;
+    padding: auto;
+    border-radius: 0.5rem;
+}
+.divContainer button{
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    font-size:1.2rem;
+    background-color:aliceblue;
+    text-align: center;
+    cursor: pointer;
+
+}
