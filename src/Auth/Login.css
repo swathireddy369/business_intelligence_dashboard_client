@@ -13,17 +13,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid gray;
-    padding: 4rem;
+    border: 1px solid gray;
+    padding:  1rem;
     border-radius: 1.5rem;
 }
 
 .formContainer input{
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 15rem;
     height: 2rem;
     padding: auto;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
 }
 .formContainer button{
     margin-top: 2rem;
@@ -33,4 +33,10 @@
     text-align: center;
     cursor: pointer;
 
+}
+.custom-toast-success {
+    background-color: #d4edda !important; /* Light green */
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
 }

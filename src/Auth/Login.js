@@ -13,8 +13,8 @@ const Login = () => {
             <form className="formContainer" action={submitForm} name="login">
              <header><h1>Sign in</h1></header>
              <p>Welcome, please sign in to continue</p>
-            <input name="userName"  value={userName} onChange={(e)=>setUserName(e.target.value)} placeholder="Input username" required ></input>
-            <input name="password"  value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="Input password" required></input>
+            <input name="userName"  value={userName} onChange={(e)=>setUserName(e.target.value)} placeholder="Input UserName" required ></input>
+            <input name="password"  value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="Input Password" required></input>
             <button type="submit" >Login</button>
             </form>
         </div>);
