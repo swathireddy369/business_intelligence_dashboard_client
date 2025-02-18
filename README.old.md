@@ -22,3 +22,4 @@ module.exports = {
 
 
 <!-- npm i react-toastify -->
+<!-- npm install react-speech-recognition -->

@@ -12,6 +12,8 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Dictaphone from './Dictaphone.js';
+import MicButton from "./MicButton.js"
 
 const pages = ['Home', 'News', 'Reports'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -28,7 +30,10 @@ function Home() {
   };
 
   const handleCloseNavMenu = () => {
+    console.log("home");
+    
     setAnchorElNav(null);
+    
   };
 
   const handleCloseUserMenu = () => {
@@ -36,7 +41,8 @@ function Home() {
   };
 
   return ( 
-    <AppBar position="static" sx={{ backgroundColor: '#1e2939' }} >
+    <>
+   <AppBar position="static" sx={{ backgroundColor: '#1e2939' }} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -57,7 +63,6 @@ function Home() {
           >
             LOGO
           </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -117,6 +122,7 @@ function Home() {
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
+
               >
                 {page}
               </Button>
@@ -152,8 +158,13 @@ function Home() {
             </Menu>
           </Box>
         </Toolbar>
+        
       </Container>
+      
     </AppBar>
+    <Dictaphone />
+    <MicButton />
+    </>
   );
 }
 export default Home;
