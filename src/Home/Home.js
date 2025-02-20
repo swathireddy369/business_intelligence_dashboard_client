@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Dictaphone from './Dictaphone.js';
-import MicButton from "./MicButton.js"
+import AzureSpeechToText from './AzureSpeechToText.js';
 
 const pages = ['Home', 'News', 'Reports'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -162,8 +162,9 @@ function Home() {
       </Container>
       
     </AppBar>
+    <AzureSpeechToText/>
     <Dictaphone />
-    <MicButton />
+    {/* <MicButton /> */}
     </>
   );
 }

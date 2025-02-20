@@ -8,7 +8,8 @@ const Dictaphone = () => {
     resetTranscript,
     browserSupportsSpeechRecognition
   } = useSpeechRecognition();
-
+  console.log("trans",transcript);
+  
   if (!browserSupportsSpeechRecognition) {
     return <span>Browser doesn't support speech recognition.</span>;
   }

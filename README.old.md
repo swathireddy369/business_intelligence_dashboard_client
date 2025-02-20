@@ -23,3 +23,8 @@ module.exports = {
 
 <!-- npm i react-toastify -->
 <!-- npm install react-speech-recognition -->
+<Azure Portal>
+
+"Speech Services"
+
+npm install microsoft-cognitiveservices-speech-sdk axios
