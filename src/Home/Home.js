@@ -14,6 +14,10 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Dictaphone from './Dictaphone.js';
 import AzureSpeechToText from './AzureSpeechToText.js';
+import Bar from './visualizing/Bar.js';
+import Line from './visualizing/Area.js';
+import Area from './visualizing/Area.js';
+import Dashboard from './Dashboard.js';
 
 const pages = ['Home', 'News', 'Reports'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -161,10 +165,11 @@ function Home() {
         
       </Container>
       
-    </AppBar>
-    <AzureSpeechToText/>
-    <Dictaphone />
+    </AppBar> 
+    {/* <AzureSpeechToText/>  */}
+    {/* <Dictaphone /> */}
     {/* <MicButton /> */}
+    <Dashboard/>
     </>
   );
 }

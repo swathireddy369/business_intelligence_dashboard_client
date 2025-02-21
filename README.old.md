@@ -28,3 +28,5 @@ module.exports = {
 "Speech Services"
 
 npm install microsoft-cognitiveservices-speech-sdk axios
+npm install --save echarts
+npm install --save echarts-for-react
