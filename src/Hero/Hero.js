@@ -14,11 +14,11 @@ const Hero=()=>{
         }}>
             {/* <Box  sx={{display:"flex",justifyContent: "flex-end",gap:2,position:"relative",top:20,right:20,}}> */}
             <Stack direction="row" spacing={2} sx={{display:"flex",justifyContent: "flex-end",position:"relative",top:20,right:20}}>
-         <StyledButton variant="outlined" onClick={()=>navigate("/login")}>
-          Login
+         <StyledButton variant="outlined" onClick={()=>navigate("/Sign-in")}>
+          Sign-In
          </StyledButton>
          <StyledButton variant="outlined" onClick={()=>navigate("/sign-up")}>
-            Signup
+            Sign-Up
             </StyledButton>
             </Stack>
             {/* </Box> */}

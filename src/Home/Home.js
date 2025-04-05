@@ -18,6 +18,7 @@ import Bar from './visualizing/Bar.js';
 import Line from './visualizing/Area.js';
 import Area from './visualizing/Area.js';
 import Dashboard from './Dashboard.js';
+import DictaphoneIcon from './DictaphoneIcon.js';
 
 const pages = ['Home', 'News', 'Reports'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -166,10 +167,11 @@ function Home() {
       </Container>
       
     </AppBar> 
+    <DictaphoneIcon/>
     {/* <AzureSpeechToText/>  */}
     {/* <Dictaphone /> */}
     {/* <MicButton /> */}
-    <Dashboard/>
+    {/* <Dashboard/> */}
     </>
   );
 }

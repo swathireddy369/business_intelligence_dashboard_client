@@ -1,17 +1,17 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Login from "../Auth/Login";
+import SignIn from "../Auth/SignIn";
 import Home from "../Home/Home";
 import Hero from "../Hero/Hero";
-import Signin from "../Auth/Signin";
+import SignUp from "../Auth/SignUp";
 const AppRoutes = () => {
     return (
         <>
             <Routes>
                 <Route  path="/" element={<Hero />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/sign-up" element={<Signin/>} />
+                <Route path="/Sign-in" element={<SignIn />} />
+                <Route path="/sign-up" element={<SignUp/>} />
                 <Route path="/Home" element={<Home />} />
             </Routes>
 
